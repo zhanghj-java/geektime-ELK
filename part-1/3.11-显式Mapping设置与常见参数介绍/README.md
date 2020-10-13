@@ -2,7 +2,7 @@
 ## 课程Demos
 ```
 
-#设置 index 为 false时，对应的字段不可被搜索，默认为true
+#设置 index 为 false时，对应的字段倒排索引不会建立，该字段不可被搜索，默认为true
 DELETE users
 PUT users
 {
