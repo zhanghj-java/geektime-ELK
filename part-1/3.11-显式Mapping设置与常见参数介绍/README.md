@@ -2,7 +2,7 @@
 ## 课程Demos
 ```
 
-#设置 index 为 false
+#设置 index 为 false时，对应的字段不可被搜索，默认为true
 DELETE users
 PUT users
 {
