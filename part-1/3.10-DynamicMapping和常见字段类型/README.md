@@ -1,5 +1,6 @@
 # Dynamic Mapping 和常见字段类型
-
+![](./11.png)
+![](./12.png)
 Mapping中的字段一旦设定后，禁止直接修改。因为倒排索引生成后不允许直接修改。需要重新建立新的索引，做reindex操作。
 
 类似数据库中的表结构定义，主要作用
@@ -36,6 +37,13 @@ GET mapping_test/_mapping
 #Delete index
 DELETE mapping_test
 
+
+
+```
+![](./13.png)
+![](./14.png)
+
+```
 #dynamic mapping，推断字段的类型
 PUT mapping_test/_doc/1
 {
@@ -50,6 +58,12 @@ PUT mapping_test/_doc/1
 GET mapping_test/_mapping
 
 
+
+```
+
+![](./15.png)
+![](./16.png)
+```
 #默认Mapping支持dynamic，写入的文档中加入新的字段
 PUT dynamic_mapping_test/_doc/1
 {
@@ -107,7 +121,6 @@ PUT dynamic_mapping_test/_doc/12
 }
 
 DELETE dynamic_mapping_test
-
 ```
 
 
