@@ -1,6 +1,9 @@
 # 使用分析器进行分词
 ![](./6.jpg)
 ![](./7.jpg)
+![](./8.jpg)
+![](./9.jpg)
+![](./10.jpg)
 ## 课程Demo
 ```
 
@@ -11,9 +14,7 @@
 #Patter Analyzer – 正则表达式，默认 \W+ (非字符分隔)
 #Language – 提供了30多种常见语言的分词器
 
-![](./8.jpg)
-![](./9.jpg)
-![](./10.jpg)
+
 
 
 #2 running Quick brown-foxes leap over lazy dogs in the summer evening
