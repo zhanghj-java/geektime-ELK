@@ -1,5 +1,9 @@
 # Dynamic Template和Index Template
 ## 课程Demo
+![](./41.png)
+![](./42.png)
+![](./43.png)
+![](./44.png)
 ```
 
 #数字字符串被映射成text，日期字符串被映射成日期
@@ -71,7 +75,15 @@ DELETE /_template/template_test
 
 
 
-#Dynaminc Mapping 根据类型和字段名
+
+```
+
+
+
+![](./46.png)
+![](./47.png)
+```
+#Dynaminc Template 根据类型和字段名
 DELETE my_index
 
 PUT my_index/_doc/1
