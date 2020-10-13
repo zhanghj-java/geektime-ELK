@@ -1,4 +1,5 @@
 # 倒排索引入门
+![](./1.jpg)
 ##课程Demo
 ```
 POST _analyze
