@@ -4,6 +4,13 @@
 ![](./3.jpg)
 ![](./4.jpg)
 ![](./5.jpg)
+
+```tex
+上面的一个Elasticsearch例子中，tf用于统计词频，方便打分，
+position用于记录term单词位置，方便短语距离查询时用，比如i love you 短语查询i you 允许一个slop，此时position便会发挥作用
+offset用于记录字符起始截止偏移，便于高亮
+```
+
 ##课程Demo
 ```
 POST _analyze
