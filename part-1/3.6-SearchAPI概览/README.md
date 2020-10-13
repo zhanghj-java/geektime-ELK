@@ -1,5 +1,6 @@
 # URI Search 概览
 ## 课程Demo
+![](./19.jpg)
 
 需要通过Kibana导入Sample Data的电商数据。
 具体参考“2.2节-Kibana的安装与界面快速浏览”一节教程
