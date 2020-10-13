@@ -1,5 +1,14 @@
 # 多字段特性及Mapping中配置自定义Analyzer
 ## 课程Demo
+![](./25.png)
+![](./26.png)
+![](./27.png)
+![](./28.png)
+![](./29.png)
+![](./30.png)
+![](./31.png)
+![](./32.png)
+
 ```
 PUT logs/_doc/1
 {"level":"DEBUG"}
