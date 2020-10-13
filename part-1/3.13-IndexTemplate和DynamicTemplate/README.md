@@ -1,6 +1,6 @@
 # Dynamic Template和Index Template
 ## 课程Demo
-![](./41.png)
+
 ![](./42.png)
 ![](./43.png)
 ![](./44.png)
