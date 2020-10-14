@@ -1,6 +1,10 @@
 # Elasticsearch聚合分析简介
 ## 课程Demo
 - 需要通过Kibana导入Sample Data的飞机航班数据。具体参考“2.2节-Kibana的安装与界面快速浏览”
+![](./51.png)
+![](./52.png)
+![](./53.png)
+![](./54.png)
 ```
 #按照目的地进行分桶统计
 GET kibana_sample_data_flights/_search
